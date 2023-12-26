@@ -1,4 +1,5 @@
 [![Go](https://github.com/CyberneticReading/bionicyzer/actions/workflows/go.yml/badge.svg?branch=main&event=push)](https://github.com/CyberneticReading/bionicyzer/actions/workflows/go.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/719a0783992441ed84c1e7029bb27b26)](https://app.codacy.com/gh/CyberneticReading/bionicyzer/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 # bionicyzer
 
 **A** **comman**dline **to**ol **whi**ch **conv**erts **plain**text **in**to **bio**nic **read**ing **rea**dy **mark**down **tex**t. **Th**e **mark**down **gener**ated **b**y **th**e **to**ol **ca**n **ren**der **bio**nic **read**ing **i**n **vsc**ode **prev**iew, **git**hub **REA**DME **et**c.
