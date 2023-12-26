@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5eac637a5c74e0b88fb84f5a09261b2)](https://app.codacy.com/gh/CyberneticReading/bionicyzer?utm_source=github.com&utm_medium=referral&utm_content=CyberneticReading/bionicyzer&utm_campaign=Badge_Grade)
 [![Go](https://github.com/CyberneticReading/bionicyzer/actions/workflows/go.yml/badge.svg?branch=main&event=push)](https://github.com/CyberneticReading/bionicyzer/actions/workflows/go.yml)
 # bionicyzer
 
