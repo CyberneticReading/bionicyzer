@@ -19,6 +19,8 @@ func bionic(text string) string {
 	return strings.Join(transformedWords, " ")
 }
 
+var builder strings.Builder
+
 func boldChars(text string, num int) string {
 	n := int(num)
 
@@ -35,7 +37,15 @@ func boldChars(text string, num int) string {
 		return text
 	}
 
-	return fmt.Sprintf("**%s**%s", text[:n], text[n:])
+	builder.Reset()
+	builder.Grow(2 + num + 2) // Preallocate space
+
+	builder.WriteString("**")
+	builder.WriteString(text[:num])
+	builder.WriteString("**")
+	builder.WriteString(text[num:])
+
+	return builder.String()
 }
 
 func transformWord(s string) string {
